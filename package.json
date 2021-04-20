@@ -1,0 +1,30 @@
+{
+  "name": "squila",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/mongoose": "^5.10.4",
+    "eslint": "^7.23.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "readable-stream": "^3.6.0",
+    "sucrase": "^3.17.1",
+    "test": "jest",
+    "ts-jest": "^26.5.4"
+  },
+  "dependencies": {
+    "csv-parse": "^4.15.3",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-react": "^7.23.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "tsconfig": "^7.0.0",
+    "typescript": "^4.2.3"
+  },
+  "include": [
+    "src",
+    "__test__"
+  ]
+}
